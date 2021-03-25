@@ -1,5 +1,7 @@
 import styles from './styles.module.scss';
 
+import SignInButton from '../SignInButton';
+
 function Header() {
   return (
     <header className={styles.headerContainer}>
@@ -12,6 +14,8 @@ function Header() {
 
           <a href="/posts">Posts</a>
         </nav>
+
+        <SignInButton />
       </div>
     </header>
   );
