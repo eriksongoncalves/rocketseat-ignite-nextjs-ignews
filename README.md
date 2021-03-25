@@ -2,21 +2,30 @@
 
 <br />
 
-## **Rodar projeto**
+## Configurações iniciais
+  - Na raiz do projeto instale as dependências:
 
-Na raiz do projeto instale as dependências:
+  ```
+    $ yarn install
+  ```
 
-```
-  $ yarn install
-```
+  ### Stripe
+    - crie uma conta em https://stripe.com
+    - crie um produto
+    - copie a sua SECRET KEY que se encontra no dashboard para colar no arquivo .env
 
-rode a aplicação:
+  ### Projeto
+    - Renomeie o arquivo `.env.example` na raiz do projeto para `.env.local` e altere os valores
+
+<br />
+
+## Rode a aplicação:
 
 ```
   $ yarn dev
 ```
 
-Para uma melhor performance:
+### Para uma melhor performance:
 
 ```
   $ yarn build && yarn start
