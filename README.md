@@ -30,3 +30,8 @@
 ```
   $ yarn build && yarn start
 ```
+
+<br />
+
+## Stripe
+  Número de cartão teste: 4242 4242 4242 4242
