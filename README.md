@@ -35,3 +35,9 @@
 
 ## Stripe
   Número de cartão teste: 4242 4242 4242 4242
+
+  rodando stripe-cli linux
+
+  ```
+    ./stripe listen --forward-to localhost:3000/api/webhooks
+  ```
